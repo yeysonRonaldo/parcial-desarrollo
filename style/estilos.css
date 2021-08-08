@@ -1,0 +1,199 @@
+form a{
+    padding: 15px;
+    margin-top: 15px
+    ;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+article{
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body * {
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0PX;
+    padding: 0%;  
+}
+body{
+    background-color: rgb(206, 226, 216);
+    margin: 0px;
+    padding: 0%;
+}
+footer{
+    color: aliceblue;
+    background-color: black;
+}
+form{
+
+    width: 400px;
+    color: white;
+    background-color: rgb(18, 39, 37);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h3, h5{
+
+    padding: 25px;
+    text-align: center;
+}
+header{
+    margin: 0px;
+    padding: 0%;
+    background-color:rgb(206, 226, 216);
+}
+
+.img{
+    text-align: left;
+    margin-left: 2px;
+    padding: auto;
+    margin-top: 2px;
+    
+}
+
+header nav{
+    background-color: rgb(37, 37, 37);
+    text-align:right;
+
+}
+
+input[type="reset"]{
+    background-color: rgb(22, 114, 114);
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+
+}
+
+input[type="submit"]{
+    background-color: rgb(22, 114, 114);
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    margin: 0%;
+
+}
+input[type="password"]{
+    background-color: rgb(22, 114, 114);
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+
+}
+input[type="text"]{
+    background-color: rgb(22, 114, 114);
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+
+}
+input[type="email"]{
+    background-color: rgb(22, 114, 114);
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+
+}
+
+
+
+nav li{
+    padding: 10px;
+    display: inline-block;
+    text-align:right;
+}
+nav a{
+    color:linen;
+    padding: 10px;
+    text-align:right;
+    text-decoration: none;
+}
+
+main div li{
+    display: block;
+    background-color: rgb(100, 146, 115);
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    
+}
+main a:hover
+{
+    background-color: rgb(82, 104, 92);
+}
+
+main nav a{
+    text-align: center;
+    color:linen;
+    padding: 10px;
+    text-decoration: none;
+    
+
+}
+main div {
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+main img{
+    display: flex;
+   justify-content: center;
+}
+table ,th, td
+{
+    border:2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+  
+}
+
+th{
+    background-color: rgb(103, 161, 132);
+}
+
+table img{
+    margin-left: 10%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    width: auto;
+}
+
+.contenedor{
+    width: 100%;
+
+}
+.header img{
+    
+   top:10%;
+  margin-left: 25px;
+   
+}
+.ro2cols{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+@media screen and (max-width:600px) {
+    .ro2cols{
+       
+        grid-template-columns: 1fr}
+}
+
+@media screen and (max-width:900px) {
+    .header img{
+        width: 90%;
+        top:10%
+        
+     }
+}
